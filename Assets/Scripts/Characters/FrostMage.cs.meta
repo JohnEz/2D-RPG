@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: e028fc7ae54d4d74c83e830680ac29e1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - frostBoltObject: {fileID: 11400000, guid: db10095f14050344796c44e185ea6229, type: 2}
+  - iceLanceObject: {fileID: 11400000, guid: 6cc6169054675814a9fe32d7554e17f0, type: 2}
+  - frostLeapObject: {fileID: 11400000, guid: e856336c3132c09499824a8e65671a06, type: 2}
+  - iceBarrierObject: {fileID: 11400000, guid: 51a2f7f5ad7d72643b57ee2a0964136a, type: 2}
+  - coldSnaptObject: {fileID: 11400000, guid: 1b5ec6f13dd95e64193ce0d435a06a37, type: 2}
+  - chillBuff: {fileID: 11400000, guid: ff0aef88d764332419e369262e0f6cd8, type: 2}
+  - frozenBuff: {fileID: 11400000, guid: 5b05a43edd425a24289d241e8176d05e, type: 2}
+  - iceBarrierBuff: {fileID: 11400000, guid: 38fffd334d44e094f9bcac85dc76c05d, type: 2}
+  - frostBoltPrefab: {fileID: 7302276510146961013, guid: e3ecadaee7e4abd42b1ab2c8fca0c2fd, type: 3}
+  - iceLancePrefab: {fileID: 6892534094239716682, guid: 09bef33c7839e02419d9cd494bd7a7dd, type: 3}
+  - coldSnapPrefab: {fileID: 4604158467522375802, guid: 1dced21166969a949979d45038690f6e, type: 3}
+  - frostLeapVFX: {fileID: 5023776176813624364, guid: 949e7d1d5858816429f465b1de2da32f, type: 3}
+  - iceBarrierVFX: {fileID: 5277472720557037422, guid: 15e8165a351d26b4eb7665bfb6bfc0c7, type: 3}
+  - frostLeapSFX: {fileID: 8300000, guid: 1931c000bbc8c5740b567746762884cb, type: 3}
+  - iceBarrierImpactSFX: {fileID: 8300000, guid: 9e89b6007089541459fee89db56ceff2, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3250447565654692717
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6284646962779183782, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: onCastSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: 92b1504ee5a35434895bf8308a3e07b6, type: 3}
+    - target: {fileID: -6284646962779183782, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: onImpactSFX
+      value: 
+      objectReference: {fileID: 8300000, guid: c384ac5c1b8b603499da22fb8fa35477, type: 3}
+    - target: {fileID: 4604158467522375800, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_Asset
+      value: 
+      objectReference: {fileID: 8926484042661614526, guid: 628c9bcc22723db479f6beafc215da83, type: 3}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375801, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604158467522375802, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: m_Name
+      value: ColdSnapTelegraph
+      objectReference: {fileID: 0}
+    - target: {fileID: 6469727162033797350, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 951099334
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 526ee7f1f273244489b145293cc7a6b0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - slashObject: {fileID: 11400000, guid: 56c8d18f504cfd9499d34b19a08a025c, type: 2}
+  - slashEffect: {fileID: 5734768200837482312, guid: 76995f28a03b11c4b8c627a2a5bff086, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

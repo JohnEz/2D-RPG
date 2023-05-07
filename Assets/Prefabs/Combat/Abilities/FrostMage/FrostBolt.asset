@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc05c11cba830d148849bb4ac81e5408, type: 3}
+  m_Name: FrostBolt
+  m_EditorClassIdentifier: 
+  abilityType: 1
+  castTime: 0.35
+  cooldown: 0.3
+  hasTargetGraphic: 0
+  targetGraphic:
+    prefab: {fileID: 0}
+    scale: 0
+  castSFX: {fileID: 8300000, guid: 85739d817567408469b6482627976c1e, type: 3}
+  castVFX: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 7435ef164f55aa34aadd4286d3e28818, type: 3}
+  speedWhileCasting: 0.1
+  prefabs:
+  - {fileID: 7302276510146961013, guid: e3ecadaee7e4abd42b1ab2c8fca0c2fd, type: 3}

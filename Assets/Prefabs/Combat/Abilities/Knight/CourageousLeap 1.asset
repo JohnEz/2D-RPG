@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad64789bc70b3940a484fd8cf539ad4, type: 3}
+  m_Name: CourageousLeap 1
+  m_EditorClassIdentifier: 
+  abilityType: 0
+  castTime: 0.1
+  cooldown: 9
+  targetGraphics:
+  - prefab: {fileID: 4536119196424114156, guid: 567e4f34d8c758f4f8cf2ef7a835d7fe, type: 3}
+    scale: 0.5
+    myStyle: 1
+  - prefab: {fileID: 4536119196424114156, guid: 567e4f34d8c758f4f8cf2ef7a835d7fe, type: 3}
+    scale: 3
+    myStyle: 1
+  castSFX: {fileID: 0}
+  castVFX: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 679fbdaa43ccef647ac37188da0a8cc1, type: 3}
+  speedWhileCasting: 0.1
+  prefabs:
+  - {fileID: 4187461743935788884, guid: 8dab3a0de2696ee4394072885da1797d, type: 3}
+  - {fileID: 4604158467522375802, guid: 933985c7d8f645f4597912e95657d7a7, type: 3}
+  radius: 3
+  MaxDistance: 8
+  LeapDuration: 1
+  LeapMoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -0.0009689331
+      value: 0
+      inSlope: 3.623287
+      outSlope: 3.623287
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.090589985
+    - serializedVersion: 3
+      time: 0.66
+      value: 1
+      inSlope: -0.032566126
+      outSlope: -0.012015204
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.12921447
+      outWeight: 0.07240722
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  LeapZCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 3.030303
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.33
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.16640289
+    - serializedVersion: 3
+      time: 0.8
+      value: 1
+      inSlope: 0.0036510078
+      outSlope: -0.004005078
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.30400515
+      outWeight: 0.27929717
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -5.0000005
+      outSlope: 0
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

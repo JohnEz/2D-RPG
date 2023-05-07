@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc05c11cba830d148849bb4ac81e5408, type: 3}
+  m_Name: IceLance
+  m_EditorClassIdentifier: 
+  abilityType: 1
+  castTime: 0.7
+  cooldown: 4
+  hasTargetGraphic: 0
+  targetGraphic:
+    prefab: {fileID: 0}
+    scale: 0
+  castSFX: {fileID: 8300000, guid: 5a127110b18b2a44984226562d3ca478, type: 3}
+  castVFX: {fileID: 6839791804671265580, guid: 980be7bb8d26a254884af7e4c30c3d13, type: 3}
+  Icon: {fileID: 21300000, guid: 6df2f79911900184da9867d500145fc6, type: 3}
+  speedWhileCasting: 0.1
+  prefabs:
+  - {fileID: 6892534094239716682, guid: 09bef33c7839e02419d9cd494bd7a7dd, type: 3}

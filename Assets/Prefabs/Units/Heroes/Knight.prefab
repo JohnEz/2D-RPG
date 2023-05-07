@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1415430949506670952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -4011011097874771742, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 951099334
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.34
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503659, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7000754311846503671, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_Name
+      value: Knight
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426735882686098591, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1689994663, guid: 2178ed198768dde4491b421355cd7535, type: 3}
+    - target: {fileID: 8426735882686098591, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.31238878
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426735882686098591, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.43921328
+      objectReference: {fileID: 0}
+    - target: {fileID: 8426735882686098591, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.5660378
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8666366613768245590, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+--- !u!1 &8251493949933700511 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7000754311846503671, guid: 926cfa6b7bb2b62439f4490292c98c3d, type: 3}
+  m_PrefabInstance: {fileID: 1415430949506670952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-3138746999883495868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8251493949933700511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d409047671515354b9278660abe94091, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  faction: 0
+  OnTakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  OnReceiveHealing:
+    m_PersistentCalls:
+      m_Calls: []
+  abilities: []
+  longswordObject: {fileID: 11400000, guid: 22a4265a999029a4eb7f8fcedb499f1a, type: 2}
+  guardObject: {fileID: 11400000, guid: 75da8d8e8f4388d4694af5bfbe7f4794, type: 2}
+  courageousLeapObject: {fileID: 11400000, guid: 1d995412683dbb943ad32f82e61407f8, type: 2}
+  shieldSlamObject: {fileID: 11400000, guid: 96b3ab299efe49b4f892ead9984b3a9f, type: 2}
+  tauntObject: {fileID: 11400000, guid: 112fc25b1b22d61459bf1a64e31fdae0, type: 2}
+  courageousLeapSFX: {fileID: 8300000, guid: 4e20d79bb96c591408960da63edf4da7, type: 3}
+  tauntSFX: {fileID: 8300000, guid: e664e00c38299144abb10ce9523f09f5, type: 3}
+  shieldSlamHitboxPrefab: {fileID: 530433931513781914, guid: f6d2e0c09568f0a428a6a5cbb300ff8e, type: 3}
+  shieldSlamDashSFX: {fileID: 8300000, guid: 89159e93fad0fdf49bd924396e00e046, type: 3}
+  shieldSlamHitSFX: {fileID: 8300000, guid: 1ae53b76873d0154a9060b245a922e54, type: 3}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d409047671515354b9278660abe94091
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - longswordObject: {fileID: 11400000, guid: 22a4265a999029a4eb7f8fcedb499f1a, type: 2}
+  - guardObject: {fileID: 11400000, guid: 75da8d8e8f4388d4694af5bfbe7f4794, type: 2}
+  - courageousLeapObject: {fileID: 11400000, guid: 1d995412683dbb943ad32f82e61407f8, type: 2}
+  - shieldSlamObject: {fileID: 11400000, guid: 96b3ab299efe49b4f892ead9984b3a9f, type: 2}
+  - tauntObject: {fileID: 11400000, guid: 112fc25b1b22d61459bf1a64e31fdae0, type: 2}
+  - courageousLeapSFX: {fileID: 8300000, guid: 4e20d79bb96c591408960da63edf4da7, type: 3}
+  - tauntSFX: {fileID: 8300000, guid: e664e00c38299144abb10ce9523f09f5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

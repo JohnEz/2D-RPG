@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: de50415e414ca37469adccd959c805f3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - toxicBoltObject: {fileID: 11400000, guid: e77d4787f60b86d4ea8c5787a6985a2a, type: 2}
+  - toxicBoltPrefab: {fileID: 4970788281436815272, guid: d0d5f548421758f45a3243746f74b3c5, type: 3}
+  - toxicBoltBuff: {fileID: 11400000, guid: 5aa336ced280daa44900039b21ff81fb, type: 2}
+  - healingPotionObject: {fileID: 11400000, guid: 1a113871294b0184498e4d6d016ef3cb, type: 2}
+  - healingPotionPrefab: {fileID: 7310961929490531092, guid: 18e3cfc1a3847274ba9d4e5f066a9aa7, type: 3}
+  - healingPotionBuff: {fileID: 11400000, guid: 4f2d7c121009cc44f92c2c9f06e747bd, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
