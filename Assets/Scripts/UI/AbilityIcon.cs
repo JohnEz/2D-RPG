@@ -43,8 +43,7 @@ public class AbilityIcon : MonoBehaviour {
         }
 
         if (isOnCooldown) {
-            float remainingCooldown = myAbility.GetRemainingCooldown();
-            cooldownText.text = remainingCooldown > 1 ? remainingCooldown.ToString("F0") : remainingCooldown.ToString("F1");
+            cooldownText.text = myAbility.GetCooldownAsString();
         }
     }
 

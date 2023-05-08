@@ -114,12 +114,21 @@ public class UnitController : NetworkBehaviour {
     }
 
     public void CastAbility(int abilityIndex) {
-        if (!CanCastAbility(myCharacter.abilities[abilityIndex])) {
+        var ability = GetAbility(abilityIndex);
+        if (!CanCastAbility(ability)) {
             return;
         }
 
         CastServerRPC(abilityIndex);
-        Cast(myCharacter.abilities[abilityIndex]);
+        Cast(ability);
+    }
+
+    public Ability GetAbility(int abilityIndex) {
+        if (abilityIndex >= myCharacter.abilities.Count) {
+            return null;
+        }
+
+        return myCharacter.abilities[abilityIndex];
     }
 
     public void UseAbilityOne() {
@@ -225,7 +234,7 @@ public class UnitController : NetworkBehaviour {
             return;
         }
         print("client rpc cast abilityIndex");
-        Cast(myCharacter.abilities[abilityIndex]);
+        Cast(GetAbility(abilityIndex));
     }
 
     public void Cast(Ability ability) {

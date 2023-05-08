@@ -31,20 +31,56 @@ public class PlayerController : NetworkBehaviour {
             //unitController.ManualCancelCast();
         }
 
+        if (Input.GetKeyDown(KeyCode.Mouse0)) {
+            // TODO pull this out into a function and maybe refactor the unit controller function to just take the ability again
+            var ability = unitController.GetAbility(0);
+            if (ability.IsOnCooldown()) {
+                GUIManager.Instance.CreateCooldownText(ability.Icon, ability.GetCooldownAsString());
+            }
+        }
+
         if (InputHandler.Instance.AttackPressed) {
             unitController.UseAbilityOne();
+        }
+
+        if (Input.GetKeyDown(KeyCode.Mouse1)) {
+            var ability = unitController.GetAbility(1);
+            if (ability.IsOnCooldown()) {
+                GUIManager.Instance.CreateCooldownText(ability.Icon, ability.GetCooldownAsString());
+            }
         }
 
         if (InputHandler.Instance.AltAttackPressed) {
             unitController.UseAbilityTwo();
         }
 
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            var ability = unitController.GetAbility(2);
+            if (ability.IsOnCooldown()) {
+                GUIManager.Instance.CreateCooldownText(ability.Icon, ability.GetCooldownAsString());
+            }
+        }
+
         if (InputHandler.Instance.DashPressed) {
             unitController.UseAbilityThree();
         }
 
+        if (Input.GetKeyDown(KeyCode.Q)) {
+            var ability = unitController.GetAbility(3);
+            if (ability.IsOnCooldown()) {
+                GUIManager.Instance.CreateCooldownText(ability.Icon, ability.GetCooldownAsString());
+            }
+        }
+
         if (InputHandler.Instance.UtilityPressed) {
             unitController.UseAbilityFour();
+        }
+
+        if (Input.GetKeyDown(KeyCode.E)) {
+            var ability = unitController.GetAbility(4);
+            if (ability.IsOnCooldown()) {
+                GUIManager.Instance.CreateCooldownText(ability.Icon, ability.GetCooldownAsString());
+            }
         }
 
         if (InputHandler.Instance.UtilityTwoPressed) {

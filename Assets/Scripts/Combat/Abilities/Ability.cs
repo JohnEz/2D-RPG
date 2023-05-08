@@ -63,4 +63,9 @@ public class Ability : ScriptableObject {
 
         return Mathf.Max(remainingCooldown, 0);
     }
+
+    public string GetCooldownAsString() {
+        float remainingCooldown = GetRemainingCooldown();
+        return remainingCooldown > 1 ? remainingCooldown.ToString("F0") : remainingCooldown.ToString("F1");
+    }
 }
